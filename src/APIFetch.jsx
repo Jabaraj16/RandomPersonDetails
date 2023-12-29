@@ -12,7 +12,7 @@ function APIFetch() {
     axios.get("https://dummyjson.com/users").then((res)=>{
        setData(res.data.users)
     })
-    setRandomId(Math.floor(Math.random()*(1-30)+30))
+    
     myDiv.style.backgroundColor ="#"+color
 
 
