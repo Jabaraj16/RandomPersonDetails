@@ -23,7 +23,7 @@ console.log(color);
 
 
   return (
-    <div id='myDiv' style={{width:'530px',height:'600px'}} className=' shadow border rounded-5 mt-5 p-5 '>
+    <div id='myDiv' style={{width:'530px',height:'600px',backgroundColor:'blue'}} className=' shadow border rounded-5 mt-5 p-5 '>
     {
       data.filter((items)=>items.id==randomId).map(detail=>(
         <div className='d-flex text-white'>
